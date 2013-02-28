@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+		<title> UI </title>
+		
+		
+		<link rel="stylesheet" href="css/style.css"> </link>
+		<link rel="stylesheet" href="css/jquery-ui-1.10.1.custom.min.css"> </link>
+		<link rel="stylesheet" href="css/bootstrap.css"> </link>
+		
+		
+		
+	    <script src="js/jquery-1.9.0.min.js"></script> 
+	   
+		
+		<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
+		<script src="js/jquery-ui-1.10.1.custom.min.js"></script>
+		<script src="js/scriptUI.js"></script>
+</head>
+
+<body onload="determineLocation()">
+
+   <div class="navbar-inverse">  
+	
+	 <div class="navbar-inner lead"> <img src="shoppingcart_icon.png" height=50 width=50></img><span style="padding: 1px;font-family: Georgia; font-size: 36px;  color: #EEE"> <b>Smart Shopper</b></span> &nbsp; &nbsp; <span style="font-family: Goergia; font-size: 24px; color: #EEE"> ~ shopping has a whole new meaning ...  </span></div>
+	</div>
+    <div class="container1">
+		 
+		 
+		<div class="" id="search-panel">
+		
+			
+				<input type="text" id="search-text" value="" placeholder="Enter keyword..." />
+							
+			<!--	<div id="chkdiv"><input type = "checkbox"  class="donationcheck" id = "chkdonation" value="donation"/> <label for="chkdonation"> Donation </label> </div>
+		
+				<div id="radiusDiv"> Radius (in miles): <input type="range" value="3" min="1" max="20" step="1" id="radius" />
+						<div id="rvalue">&nbsp;</div>
+				</div>
+		 -->
+		</div>
+		
+		
+		
+		<div id="map-content" >
+		
+			
+		</div>
+		
+		<div id="productsDiv">
+			<div>
+				<span id="prod"> </span>
+				
+				<span id="price"> </span>
+			</div>	
+		</div>
+		
+		
+		
+	
+	</div>
+	
+		
+
+</body>
+</html>

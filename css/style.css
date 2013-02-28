@@ -1,0 +1,154 @@
+body{
+ padding: 5px;
+
+}
+
+.container1{
+    position: absolute;
+	width: 98%;
+	height: 100%;
+	/*border: 1px solid #CCC;*/
+	padding: 5px; 
+	-webkit-border-radius: 4px 2px 4px 2px;
+	-moz-border-radius: 4px 2px 4px 2px;
+	border-radius:  2px 2px 2px 2px;
+	
+}
+
+.container2{
+    position: absolute;
+	width: 98%;
+	height: 500px;
+	
+	padding: 5px; 
+		
+}
+#options{
+	position: absolute;
+	background: #FEFEFE;
+	border:  1px solid #EFEFEF;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px; 
+	padding: 5px;
+	bottom: 70px;
+}
+
+#img1,#img2,#img3,#img4{
+
+	opacity: 0.6;
+}
+
+#img1:hover,#img2:hover,#img3:hover,#img4:hover{
+
+   opacity: 1.0;
+   cursor: pointer;
+
+}
+
+#search-text{
+	display: block;
+    position: relative;
+	width: 150px;
+	margin: 5px;
+}
+
+#search-btn{
+	display: block;
+    position: relative;
+	margin: 5px;
+}
+
+
+#search-panel{
+	position: relative;
+	width: 15%;
+	height: 90%;
+	float: left;
+	margin: 5px auto;
+	background-color: #CCC;
+}
+#radiusDiv{
+	display: none;
+    position: absolute;
+    top: 30px;
+	padding: 2px;
+    margin: 5px;
+	float: left;
+	background-color: #EEE;
+
+
+}
+#rvalue{
+    display: none;
+	position: relative;
+	left: 140px;
+}
+
+#chkdiv{
+    display: none;
+    position: relative;
+    top: 50px;
+	padding: 2px;
+    margin: 5px;
+	float: left;
+	background-color: #EEE;
+
+}
+#points{
+  
+    width: 250px;
+    height: 25px;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+	padding: 10px;
+    margin-left: 5px;
+	float: left;
+	font-size: 2em;
+	color:  #EEE;
+	background-color: #222;
+	border: 1px solid #EEE;
+	text-align:center;
+	vertical-align: middle;
+
+	opacity: 0.8;
+}
+
+span#points-content{
+   
+	font-style: bold;
+	font-family: Georgia;
+
+}
+
+#map-content{
+	position: relative;
+	width: 60%;
+	height: 90%;
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+	background: #CCC;
+	border: 1px solid #CCC;
+}
+
+#productsDiv{
+	position: relative;
+	padding: 3px;
+	width: 23%;
+	height: 89%;
+	float: right;
+	margin-left: 1px;
+	margin-top: 5px;
+	background: #CCC;
+	border: 1px solid #CCC;
+	color: #EFEFEF;
+
+}
+
+
+#price, #prod{
+   font-size: 12px;
+   margin-right: 2px;
+   color: #222;
+}
